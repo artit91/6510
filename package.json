@@ -1,0 +1,16 @@
+{
+  "name": "6510",
+  "version": "0.0.8",
+  "description": "6510 CPU emulation",
+  "scripts": {
+    "install": "make",
+    "test": "NODE_PATH=src jest tests/**/*.js",
+    "prettier": "prettier --write \"**/*.js\" "
+  },
+  "author": "Attila Varga <attila@artit.io>",
+  "license": "file://LICENCE.md",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  }
+}
